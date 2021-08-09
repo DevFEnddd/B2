@@ -2,7 +2,7 @@
 
 let n ;
 while (true) {
-    n = prompt('Enter a number');
+    n = Number(prompt('Enter a number'));
     if (0 <= n && n <= 4) {
         alert('Lower half');
         break;
